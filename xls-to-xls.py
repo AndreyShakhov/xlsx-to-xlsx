@@ -18,6 +18,7 @@ def Filling_data(table_list_values,row = 0):# запись данных в но�
 def open_file():
     file_open = filedialog.askopenfilename(filetypes = (("Text files","*.xlsx"),("all files","*.*")))
     print(file_open)
+
     return file_open
 
 def error_input_file():
@@ -30,9 +31,9 @@ def dialog_window():
     btn = Button(window, text="Открыть файл", command=open_file)
     btn.grid(column=1, row=1)
     window.mainloop()
+    return file_open_1
 
-
-file_open = ''
+file_open_1= open_file()
 
 dialog_window()
 #open_file()
@@ -42,12 +43,15 @@ table_list_values = [] # пустой массив данных для ново�
 #print(file_open)
 
 row_number = 0
-print(file_open, 'file_open')
+
 wb = Workbook() # новая рабочая книга
 sheet_new = wb.active
 sheet_new.title = file_name_new
+
+
+print(file_open, 'file_open')
 if len(file_open) > 0:
-    wb2 = load_workbook(open_file(), data_only=True)  # Загрузил файл в ячейках только значения
+    wb2 = load_workbook('Спецификация.xlsx', data_only=True)  # Загрузил файл в ячейках только значения
     sheet = wb2['Лист1']
     for row in sheet.rows: # перебираю файл построчно
         row_number += 1
