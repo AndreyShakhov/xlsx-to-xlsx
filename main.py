@@ -13,12 +13,14 @@ def filling_data(table_list_values,sheet_new, row = 0):# запись данны
         sheet_new['B' + str(row)] = item[1]
         sheet_new['C' + str(row)] = item[2]
 
+
 def new_workbook(file_name_new, table_list_values): # создание, заполнение и сохранение рабочей книги
     wb = Workbook()  # новая рабочая книга
     sheet_new = wb.active
     sheet_new.title = file_name_new
     filling_data(table_list_values, sheet_new)  # запись данных в новую таблицу
     wb.save(file_name_new)
+
 file_name = ''
 dialog = A()
 dialog.dialog_window()
