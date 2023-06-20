@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9aabd4fc-aee9-41a6-a1bb-f449f924434d" name="Changes" comment="ver.1.0">
-      <change afterPath="$PROJECT_DIR$/function_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user_interface.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/XLS to XLS.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/XLS to XLS.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xls-to-xls.py" beforeDir="false" afterPath="$PROJECT_DIR$/xls-to-xls.py" afterDir="false" />
+    <list default="true" id="9aabd4fc-aee9-41a6-a1bb-f449f924434d" name="Changes" comment="refactoring main">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_interface.py" beforeDir="false" afterPath="$PROJECT_DIR$/user_interface.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Спецификация_new.xlsx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +24,11 @@
   </component>
   <component name="Git.Settings">
     <branch-grouping />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2RCEixLk99MauKgx0V9zcjPhC6e" />
@@ -33,14 +37,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;Y:/project/XLS to XLS&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "my-feature-1",
+    "last_opened_file_path": "Y:/project/XLS to XLS",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -64,7 +68,28 @@
       <option name="project" value="LOCAL" />
       <updated>1686856241607</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="ver.1.1">
+      <created>1687202442315</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1687202442316</updated>
+    </task>
+    <task id="LOCAL-00004" summary="ver.1.2">
+      <created>1687202583947</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1687202583947</updated>
+    </task>
+    <task id="LOCAL-00005" summary="refactoring main">
+      <created>1687202834897</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1687202834897</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -86,7 +111,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ver.1.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="ver.1.0" />
+    <MESSAGE value="ver.1.1" />
+    <MESSAGE value="ver.1.2" />
+    <MESSAGE value="refactoring main" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactoring main" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -110,21 +138,6 @@
           <url>file://$PROJECT_DIR$/xls-to-xls.py</url>
           <line>26</line>
           <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>23</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/user_interface.py</url>
-          <line>14</line>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/user_interface.py</url>
-          <line>10</line>
-          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
